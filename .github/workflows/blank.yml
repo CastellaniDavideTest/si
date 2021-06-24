@@ -28,7 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: ls
         run: |
-          git submodule update --init
+          #git submodule update --init
           git submodule update --remote --recursive --merge
           sudo apt install tree
           tree
