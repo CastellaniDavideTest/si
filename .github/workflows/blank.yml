@@ -27,4 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: ls
-        run: ls
+        run: |
+          sudo apt install tree
+          tree
