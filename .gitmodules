@@ -1,3 +1,9 @@
 [submodule "sp"]
 	path = sp
 	url = https://github.com/CastellaniDavideTest/sp.git
+[submodule "sp2"]
+	path = bin/libraries
+	url = https://github.com/CastellaniDavideTest/sp.git
+[submodule "bin/libraries"]
+	path = bin/libraries
+	url = https://github.com/CastellaniDavideTest/sp.git
